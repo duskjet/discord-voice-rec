@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{19A0AE75-E209-4A1C-B6C8-36E23F9AAB4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6D8CA248-B5A8-497C-A185-B0B6E3C8D9AE}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Discord.VoiceRec", "src\Discord.VoiceRec\Discord.VoiceRec.xproj", "{E692D1FE-4E8D-4008-96AA-818E92AD8825}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E4E57F25-05FE-4195-A638-6E9F68F30CC8}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Discord.VoiceRec.Tests", "test\Discord.VoiceRec.Tests\Discord.VoiceRec.Tests.xproj", "{40868F37-59C4-4B9C-9FB9-C56B46FF7FAF}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Discord.API", "src\Discord.API\Discord.API.xproj", "{32D4488E-AEF9-43EC-8471-5A460FC77102}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E692D1FE-4E8D-4008-96AA-818E92AD8825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E692D1FE-4E8D-4008-96AA-818E92AD8825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E692D1FE-4E8D-4008-96AA-818E92AD8825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E692D1FE-4E8D-4008-96AA-818E92AD8825}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40868F37-59C4-4B9C-9FB9-C56B46FF7FAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40868F37-59C4-4B9C-9FB9-C56B46FF7FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40868F37-59C4-4B9C-9FB9-C56B46FF7FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40868F37-59C4-4B9C-9FB9-C56B46FF7FAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32D4488E-AEF9-43EC-8471-5A460FC77102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32D4488E-AEF9-43EC-8471-5A460FC77102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32D4488E-AEF9-43EC-8471-5A460FC77102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32D4488E-AEF9-43EC-8471-5A460FC77102}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E692D1FE-4E8D-4008-96AA-818E92AD8825} = {19A0AE75-E209-4A1C-B6C8-36E23F9AAB4A}
+		{40868F37-59C4-4B9C-9FB9-C56B46FF7FAF} = {E4E57F25-05FE-4195-A638-6E9F68F30CC8}
+		{32D4488E-AEF9-43EC-8471-5A460FC77102} = {19A0AE75-E209-4A1C-B6C8-36E23F9AAB4A}
+	EndGlobalSection
+EndGlobal
