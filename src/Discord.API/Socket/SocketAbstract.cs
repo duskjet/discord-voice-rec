@@ -13,7 +13,6 @@ namespace Discord.API.Socket
         private readonly object sync = new object();
 
         private const int sendingInterval = 500;
-        private Timer timer = new Timer(delegate { }, null, )
 
         public async Task Send(object message)
         {
@@ -28,7 +27,6 @@ namespace Discord.API.Socket
             {
                 await Task.Delay(sendingInterval);
 
-                if ()
             }
         }
 
