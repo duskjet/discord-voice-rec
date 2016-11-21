@@ -7,5 +7,8 @@ namespace Discord.API.Socket
 {
     public class VoiceSocket : DiscordWebSocket
     {
+        public VoiceSocket(string uri) : base(uri)
+        {
+        }
     }
 }

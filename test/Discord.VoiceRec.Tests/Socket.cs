@@ -1,14 +1,23 @@
 ﻿using Discord.API.Socket;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Xunit;
 
 namespace Discord.VoiceRec.Tests
 {
-    public class SocketTests
+    public class SocketTests : IClassFixture<SocketTests.SocketFixture>
     {
+        SocketFixture fixture;
+        int possibleMessageOffset = 0;
+
+        public SocketTests(SocketFixture fixture)
+        {
+            this.fixture = fixture;
+        }
+
         [Fact]
         public void SampleTest()
         {
@@ -17,28 +26,73 @@ namespace Discord.VoiceRec.Tests
         }
 
         [Fact]
-        public async Task RateLimit_InitiallyReady()
+        public async Task EnqueingMessages()
         {
-            var limit = new RateLimit();
+            possibleMessageOffset++;
+            await fixture.Websocket.Send(new Command("{\"sos\":\"kek\"}"));
 
-            Assert.Equal(true, limit.Ready);
+            Assert.Equal(1, fixture.Websocket._Queue.Count);
+
+            await Task.Delay(3000);
         }
 
-        [Fact]
-        public async Task RateLimit_NotReadyAfterFire()
+        [Theory]
+        [InlineData("{\"key\":\"value\"}")]
+        [InlineData("pidor sosi zhopu")]
+        public async Task SendMessage(string message)
         {
-            var limit = new RateLimit(500);
+            EventHandler<WebSocket4Net.MessageReceivedEventArgs> handler = (s, e) =>
+            {
+                Debug.WriteLine(e.Message);
+                var deserialized = Newtonsoft.Json.JsonConvert.DeserializeObject(e.Message);
+                Assert.Equal(message, deserialized);
+            };
+            fixture.Websocket.Received += handler;
 
-            limit.Fire();
-            Task.Run(() => limit.Fire());
-            Task.Run(() => limit.Fire());
+            possibleMessageOffset++;
+            await fixture.Websocket.Send(new Command(message));
+            await Task.Delay(3000);
 
+            fixture.Websocket.Received -= handler;
+        }
 
-            Assert.Equal(false, limit.Ready);
+        /*
+         * Test Cases:
+         * socket connects
+         * socket sends messages
+         *   socket sends message
+         *   socket sends multiple messages
+         * message queue tests
+         *   correctly adding msg to queue
+         *   correctly dequeueing from queue
+         *   correct behavior when queue empty
+         * send limit tests
+         *   limit behaves correctly when on low allowed operations
+         *   correct transition when 0-1 operations left and new minute is coming
+         * cancellation token source tests
+         */
 
-            await Task.Delay(3500);
+        public class SocketFixture : IDisposable
+        {
+            public MockSocket Websocket { get; private set; }
 
-            Assert.Equal(true, limit.Ready);
+            public SocketFixture()
+            {
+                Websocket = new MockSocket("wss://echo.websocket.org");
+            }
+
+            public void Dispose()
+            {
+                Websocket.Dispose();
+            }
+        }
+
+        public class MockSocket : DiscordWebSocket
+        {
+            public MockSocket(string uri) : base(uri)
+            {
+                while (base.State != WebSocket4Net.WebSocketState.Open) ;
+            }
         }
     }
 }

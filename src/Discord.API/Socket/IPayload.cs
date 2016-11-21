@@ -7,34 +7,21 @@ using System.Threading.Tasks;
 
 namespace Discord.API.Socket
 {
-    //interface IPayload<TEnum>
-    //{
-    //    TEnum OperationCode { get; }
-    //    dynamic Data { get; }
-    //}
-
     [JsonObject]
-    public class Payload<TEnum, TData> where TEnum : struct
+    public class Payload<T> where T : class
     {
         [JsonProperty("op"), JsonRequired]
-        public TEnum OperationCode { get; private set; }
-        [JsonProperty("d"), JsonRequired]
-        public TData Data { get; private set; }
+        public int OperationCode { get; }
+        [JsonProperty("d", NullValueHandling = NullValueHandling.Ignore)]
+        public T Data { get; }
 
-        public Payload(TEnum opcode, TData data)
+        public Payload(int opcode, T data)
         {
-            if (!typeof(TEnum).GetTypeInfo().IsEnum)
-                throw new NotSupportedException("Operation code value must be Enum");
-
-            if (typeof(TData).GetTypeInfo().GetCustomAttribute(typeof(JsonObjectAttribute)) == null)
+            if (typeof(T).GetTypeInfo().GetCustomAttribute(typeof(JsonObjectAttribute)) == null)
                 throw new NotSupportedException("Data object must have a JsonObject attribute");
 
             OperationCode = opcode;
             Data = data;
         }
-    }
-
-    public interface IJsonSerializable
-    {
     }
 }

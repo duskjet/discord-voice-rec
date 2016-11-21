@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace Discord.API.Socket
+﻿namespace Discord.API.Socket
 {
     public enum GatewayOperation
     {
@@ -19,5 +14,10 @@ namespace Discord.API.Socket
         InvalidSession = 9,     // used to notify client they have an invalid session id
         Hello = 10,             // sent immediately after connecting, contains heartbeat and server debug information
         HeartbackACK = 11       // sent immediately following a client heartbeat that was received
+    }
+
+    public enum VoiceOperation
+    {
+
     }
 }

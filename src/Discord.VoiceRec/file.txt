@@ -1,0 +1,1 @@
+2016-11-17 13:26:21.6695|DEBUG|Program|Sample debug log

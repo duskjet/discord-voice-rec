@@ -7,5 +7,8 @@ namespace Discord.API.Socket
 {
     public class GatewaySocket : DiscordWebSocket
     {
+        public GatewaySocket(string uri) : base(uri)
+        {
+        }
     }
 }

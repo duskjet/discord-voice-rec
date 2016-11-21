@@ -1,10 +1,15 @@
-﻿namespace Discord.VoiceRec
+﻿using NLog;
+using System;
+
+namespace Discord.VoiceRec
 {
     public class Program
     {
+        private static Logger log = LogManager.GetCurrentClassLogger();
         public static void Main(string[] args)
         {
-            System.Collections.Concurrent.ConcurrentQueue<int> Dristnya;
+            log.Debug("Sample debug log");
+            Console.ReadLine();
         }
     }
 }

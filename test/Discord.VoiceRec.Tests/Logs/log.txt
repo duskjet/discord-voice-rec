@@ -1,0 +1,118 @@
+2016-11-17 16:14:02.9219|DEBUG|Pidor|Operation count is zero
+2016-11-17 16:14:02.9354|DEBUG|Pidor|Renew operations
+2016-11-17 16:14:02.9354|DEBUG|Pidor|Wait complete in 5015ms. Remaining operations: 0
+2016-11-17 16:14:07.9381|DEBUG|Pidor|Operation count is zero
+2016-11-17 16:14:07.9495|DEBUG|Pidor|Renew operations
+2016-11-17 16:14:07.9495|DEBUG|Pidor|Wait complete in 5012ms. Remaining operations: 0
+2016-11-17 16:14:12.9520|DEBUG|Pidor|Operation count is zero
+2016-11-17 16:14:12.9650|DEBUG|Pidor|Renew operations
+2016-11-17 16:14:12.9650|DEBUG|Pidor|Wait complete in 5015ms. Remaining operations: 0
+2016-11-17 16:14:17.9680|DEBUG|Pidor|Operation count is zero
+2016-11-17 16:14:17.9790|DEBUG|Pidor|Renew operations
+2016-11-17 16:14:17.9790|DEBUG|Pidor|Wait complete in 5014ms. Remaining operations: 0
+2016-11-17 16:14:22.9829|DEBUG|Pidor|Operation count is zero
+2016-11-17 16:14:22.9960|DEBUG|Pidor|Renew operations
+2016-11-17 16:14:22.9960|DEBUG|Pidor|Wait complete in 5015ms. Remaining operations: 0
+2016-11-17 16:14:27.9993|DEBUG|Pidor|Operation count is zero
+2016-11-17 16:14:28.0088|DEBUG|Pidor|Renew operations
+2016-11-17 16:14:28.0088|DEBUG|Pidor|Wait complete in 5011ms. Remaining operations: 0
+2016-11-17 16:14:33.0115|DEBUG|Pidor|Operation count is zero
+2016-11-17 16:14:33.0305|DEBUG|Pidor|Renew operations
+2016-11-17 16:14:33.0305|DEBUG|Pidor|Wait complete in 5021ms. Remaining operations: 0
+2016-11-17 16:14:38.0416|DEBUG|Pidor|Renew operations
+2016-11-17 16:14:38.0416|DEBUG|Pidor|Operation count is zero
+2016-11-17 16:14:38.0416|DEBUG|Pidor|Wait complete in 5012ms. Remaining operations: 0
+2016-11-17 16:33:51.9464|DEBUG|Pidor|Renew operations
+2016-11-17 16:33:52.3236|DEBUG|Pidor|Wait complete in 5502ms. Remaining operations: 0
+2016-11-17 16:33:57.1085|DEBUG|Pidor|Renew operations
+2016-11-17 16:33:57.3248|DEBUG|Pidor|Wait complete in 4999ms. Remaining operations: 0
+2016-11-17 16:34:02.1239|DEBUG|Pidor|Renew operations
+2016-11-17 16:34:02.3262|DEBUG|Pidor|Wait complete in 5001ms. Remaining operations: 0
+2016-11-17 16:34:07.1411|DEBUG|Pidor|Renew operations
+2016-11-17 16:34:07.3275|DEBUG|Pidor|Wait complete in 5000ms. Remaining operations: 0
+2016-11-17 16:34:12.1579|DEBUG|Pidor|Renew operations
+2016-11-17 16:34:12.3290|DEBUG|Pidor|Wait complete in 5001ms. Remaining operations: 0
+2016-11-17 16:34:17.1713|DEBUG|Pidor|Renew operations
+2016-11-17 16:34:17.3357|DEBUG|Pidor|Wait complete in 5006ms. Remaining operations: 0
+2016-11-17 16:34:22.1929|DEBUG|Pidor|Renew operations
+2016-11-17 16:34:22.3368|DEBUG|Pidor|Wait complete in 5000ms. Remaining operations: 0
+2016-11-17 16:34:27.2112|DEBUG|Pidor|Renew operations
+2016-11-17 16:34:27.3511|DEBUG|Pidor|Wait complete in 5013ms. Remaining operations: 0
+2016-11-17 16:34:32.2348|DEBUG|Pidor|Renew operations
+2016-11-17 16:34:32.3529|DEBUG|Pidor|Wait complete in 5001ms. Remaining operations: 0
+2016-11-17 16:34:37.2501|DEBUG|Pidor|Renew operations
+2016-11-17 16:34:37.3533|DEBUG|Pidor|Wait complete in 4999ms. Remaining operations: 0
+2016-11-17 16:34:42.2678|DEBUG|Pidor|Renew operations
+2016-11-17 16:34:42.3548|DEBUG|Pidor|Wait complete in 5001ms. Remaining operations: 0
+2016-11-17 16:34:47.2829|DEBUG|Pidor|Renew operations
+2016-11-17 16:34:47.3560|DEBUG|Pidor|Wait complete in 5000ms. Remaining operations: 0
+2016-11-17 16:34:52.2978|DEBUG|Pidor|Renew operations
+2016-11-17 16:34:52.3580|DEBUG|Pidor|Wait complete in 5001ms. Remaining operations: 0
+2016-11-17 16:34:57.3111|DEBUG|Pidor|Renew operations
+2016-11-17 16:34:57.3674|DEBUG|Pidor|Wait complete in 5008ms. Remaining operations: 0
+2016-11-17 16:35:02.3304|DEBUG|Pidor|Renew operations
+2016-11-17 16:35:02.3693|DEBUG|Pidor|Wait complete in 5001ms. Remaining operations: 0
+2016-11-17 16:35:07.3459|DEBUG|Pidor|Renew operations
+2016-11-17 16:35:07.3709|DEBUG|Pidor|Wait complete in 5001ms. Remaining operations: 0
+2016-11-17 16:35:12.3624|DEBUG|Pidor|Renew operations
+2016-11-17 16:35:12.3724|DEBUG|Pidor|Wait complete in 5000ms. Remaining operations: 0
+2016-11-17 16:35:17.3738|DEBUG|Pidor|Operation count is zero
+2016-11-17 16:35:17.3823|DEBUG|Pidor|Renew operations
+2016-11-17 16:35:17.3823|DEBUG|Pidor|Wait complete in 5012ms. Remaining operations: 0
+2016-11-17 16:35:22.3857|DEBUG|Pidor|Operation count is zero
+2016-11-17 16:35:22.4012|DEBUG|Pidor|Renew operations
+2016-11-17 16:35:22.4012|DEBUG|Pidor|Wait complete in 5018ms. Remaining operations: 0
+2016-11-17 16:35:27.4041|DEBUG|Pidor|Operation count is zero
+2016-11-17 16:35:27.4191|DEBUG|Pidor|Renew operations
+2016-11-17 16:35:27.4191|DEBUG|Pidor|Wait complete in 5016ms. Remaining operations: 0
+2016-11-17 16:35:32.4228|DEBUG|Pidor|Operation count is zero
+2016-11-17 16:35:32.4298|DEBUG|Pidor|Renew operations
+2016-11-17 16:35:32.4298|DEBUG|Pidor|Wait complete in 5010ms. Remaining operations: 0
+2016-11-17 16:35:37.4339|DEBUG|Pidor|Operation count is zero
+2016-11-17 16:35:37.4450|DEBUG|Pidor|Renew operations
+2016-11-17 16:35:37.4450|DEBUG|Pidor|Wait complete in 5013ms. Remaining operations: 0
+2016-11-17 16:35:42.4478|DEBUG|Pidor|Operation count is zero
+2016-11-17 16:35:42.4643|DEBUG|Pidor|Renew operations
+2016-11-17 16:35:42.4643|DEBUG|Pidor|Wait complete in 5019ms. Remaining operations: 0
+2016-11-17 16:35:47.4674|DEBUG|Pidor|Operation count is zero
+2016-11-17 16:35:47.4769|DEBUG|Pidor|Renew operations
+2016-11-17 16:35:47.4769|DEBUG|Pidor|Wait complete in 5012ms. Remaining operations: 0
+2016-11-17 16:35:52.4799|DEBUG|Pidor|Operation count is zero
+2016-11-17 16:35:52.4919|DEBUG|Pidor|Renew operations
+2016-11-17 16:35:52.4919|DEBUG|Pidor|Wait complete in 5015ms. Remaining operations: 0
+2016-11-17 16:35:57.4958|DEBUG|Pidor|Operation count is zero
+2016-11-17 16:35:57.5103|DEBUG|Pidor|Renew operations
+2016-11-17 16:35:57.5103|DEBUG|Pidor|Wait complete in 5016ms. Remaining operations: 0
+2016-11-17 16:36:02.5124|DEBUG|Pidor|Operation count is zero
+2016-11-17 16:36:02.5319|DEBUG|Pidor|Renew operations
+2016-11-17 16:36:02.5319|DEBUG|Pidor|Wait complete in 5021ms. Remaining operations: 0
+2016-11-17 16:36:07.5448|DEBUG|Pidor|Renew operations
+2016-11-17 16:36:07.5448|DEBUG|Pidor|Operation count is zero
+2016-11-17 16:36:07.5709|DEBUG|Pidor|Wait complete in 5036ms. Remaining operations: 0
+2016-11-17 16:36:12.5724|DEBUG|Pidor|Operation count is zero
+2016-11-17 16:36:12.8208|DEBUG|Pidor|Renew operations
+2016-11-17 16:36:12.8208|DEBUG|Pidor|Wait complete in 5251ms. Remaining operations: 0
+2016-11-17 16:36:17.8235|DEBUG|Pidor|Operation count is zero
+2016-11-17 16:36:17.8402|DEBUG|Pidor|Renew operations
+2016-11-17 16:36:17.8402|DEBUG|Pidor|Wait complete in 5019ms. Remaining operations: 0
+2016-11-17 16:36:22.8429|DEBUG|Pidor|Operation count is zero
+2016-11-17 16:36:22.8572|DEBUG|Pidor|Renew operations
+2016-11-17 16:36:22.8572|DEBUG|Pidor|Wait complete in 5016ms. Remaining operations: 0
+2016-11-17 16:36:27.8605|DEBUG|Pidor|Operation count is zero
+2016-11-17 16:36:27.8695|DEBUG|Pidor|Renew operations
+2016-11-17 16:36:27.8695|DEBUG|Pidor|Wait complete in 5011ms. Remaining operations: 0
+2016-11-17 16:36:32.8731|DEBUG|Pidor|Operation count is zero
+2016-11-17 16:36:32.8847|DEBUG|Pidor|Renew operations
+2016-11-17 16:36:32.8847|DEBUG|Pidor|Wait complete in 5014ms. Remaining operations: 0
+2016-11-17 16:36:37.8874|DEBUG|Pidor|Operation count is zero
+2016-11-17 16:36:37.8989|DEBUG|Pidor|Renew operations
+2016-11-17 16:36:37.8989|DEBUG|Pidor|Wait complete in 5014ms. Remaining operations: 0
+2016-11-17 16:36:42.9022|DEBUG|Pidor|Operation count is zero
+2016-11-17 16:36:42.9152|DEBUG|Pidor|Renew operations
+2016-11-17 16:36:42.9152|DEBUG|Pidor|Wait complete in 5016ms. Remaining operations: 0
+2016-11-17 16:36:47.9198|DEBUG|Pidor|Operation count is zero
+2016-11-17 16:36:47.9313|DEBUG|Pidor|Renew operations
+2016-11-17 16:36:47.9313|DEBUG|Pidor|Wait complete in 5014ms. Remaining operations: 0
+2016-11-17 16:36:52.9348|DEBUG|Pidor|Operation count is zero
+2016-11-17 16:36:52.9483|DEBUG|Pidor|Renew operations
+2016-11-17 16:36:52.9963|DEBUG|Pidor|Wait complete in 5062ms. Remaining operations: 0
