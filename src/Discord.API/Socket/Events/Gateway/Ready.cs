@@ -1,12 +1,10 @@
 ﻿using Discord.API.Objects;
 using Newtonsoft.Json;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Discord.API.Socket.Events.Gateway
 {
+    [JsonObject]
     public class Ready
     {
         [JsonProperty("v")]

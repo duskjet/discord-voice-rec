@@ -25,7 +25,7 @@ namespace Discord.API.Socket
         public async Task Wait(bool isPriority = false)
         {
             var sw = new Stopwatch(); sw.Start();
-
+            var heartbeat = new Payload<Payloads.Gateway.Heartbeat>(null);
             var delay = GetDelay(isPriority);
             await Task.Delay(delay);
 

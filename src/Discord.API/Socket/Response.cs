@@ -1,22 +1,19 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace Discord.API.Socket
 {
-    public abstract class Response<TEnum> 
+    [JsonObject]
+    public class Response<T> : Payload<T> where T : class
     {
-        public TEnum OperationCode { get; private set; }
-        public dynamic Data { get; private set; }
+        public Response(T data) : base(data) { }
 
+        [JsonProperty("t")]
         public string Event { get; set; }
+        [JsonProperty("s")]
         public int Sequence { get; set; }
-
-        public Response(TEnum opcode, dynamic data)
-        {
-            OperationCode = opcode;
-            Data = data;
-        }
     }
 }

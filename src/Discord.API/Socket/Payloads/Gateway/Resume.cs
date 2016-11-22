@@ -2,6 +2,7 @@
 
 namespace Discord.API.Socket.Payloads.Gateway
 {
+    [JsonObject]
     public class Resume
     {
         [JsonProperty("token")]

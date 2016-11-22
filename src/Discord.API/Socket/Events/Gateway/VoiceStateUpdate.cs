@@ -2,6 +2,7 @@
 
 namespace Discord.API.Socket.Events.Gateway
 {
+    [JsonObject]
     public class VoiceStateUpdate
     {
         [JsonProperty("user_id")]

@@ -18,6 +18,11 @@
 
     public enum VoiceOperation
     {
-
+        Identify = 0,           // used to begin a voice websocket connection
+        SelectProtocol = 1,     // used to select the voice protocol
+        Ready = 2,              // used to complete the websocket handshake
+        Heartbeat = 3,          // used to keep the websocket connection alive
+        SessionDescription = 4, // used to describe the session
+        Speaking = 5            // used to indicate which users are speaking
     }
 }
