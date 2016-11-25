@@ -25,6 +25,7 @@ namespace Discord.API.Socket
             Data = data;
         }
 
+        // TODO: finish
         private static readonly Dictionary<Type, int> operations = new Dictionary<Type, int>()
         {
             [typeof(Heartbeat)] = 1,
@@ -36,8 +37,12 @@ namespace Discord.API.Socket
     public class Payload
     {
         [JsonProperty("op"), JsonRequired]
-        public int OperationCode { get; set; }
+        public int Operation { get; set; }
         [JsonProperty("d", NullValueHandling = NullValueHandling.Ignore)]
-        public dynamic Data { get; set; }
+        public string Data { get; set; }
+        [JsonProperty("t", NullValueHandling = NullValueHandling.Ignore)]
+        public string Event { get; set; }
+        [JsonProperty("s", NullValueHandling = NullValueHandling.Ignore)]
+        public int Sequence { get; set; }
     }
 }
